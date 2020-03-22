@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">--> 
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+    <!--<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">--> 
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
+	<title>Lista de Tareas</title>
+</head>
+<body>
+	<div class="principal">
+		<div class="wrap">
+			<form class="formulario" action="/" method="POST">
+				<input type="text" id="tareaInput" placeholder="Agrega tu tarea" name ="Tarea recibida">
+				<input type= "button" class="boton" id="btn-agregar" value="Agregar Tarea">
+				<input type= "submit" class="boton" id="btn-agregar" value="Enviar al Formulario">
+
+			</form>
+		</div>
+	</div>
+
+	<div class="tareas">
+		<div class="wrap">
+			<ul class="lista" id="lista">
+				<li><a href="#">1.- Mi primer tarea.</a></li>
+				<li><a href="#">2.- Mi segunda tarea.</a></li>
+				<li><a href="#">3.- Mi tercer tarea.</a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
